@@ -1,0 +1,13 @@
+name: sen1511
+channels:
+    - conda-forge
+dependencies:
+    - python=3.10
+    - pyomo=6.4.1
+    - pandas=1.4.3
+    - matplotlib
+    - jupyter
+    - glpk
+    - pip
+    - pip:
+        - -e git+https://github.com/sjpfenninger/sen1511.git#egg=sen1511utils&subdirectory=sen1511utils
